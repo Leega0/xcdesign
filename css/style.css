@@ -87,6 +87,9 @@ html { overflow-y: scroll; }
 }
 .logo-menu ul li{float: left; padding: 12px 15px;}
 .logo-menu ul li a{font-size: 18px;}
+.logo-menu ul li a.cur{
+	color: #f08519;
+}
 .logo-menu ul li em{font-size: 12px; display: block;padding-top: 5px;}
 /*焦点图*/
 .focus{position:relative; width:100%; height:513px; overflow:hidden;}
@@ -235,4 +238,41 @@ html { overflow-y: scroll; }
 .fanye a.cur{
 	font-weight: bold;
 	background: #f8f8f8;
+}
+/*作品案例*/
+.xuanchuan{
+	text-align: center;
+	color: #9fa0a0;
+	border-top: 2px solid #b2b2b2;
+}
+.xuanchuan .yewu{
+	font-size: 18px;
+}
+.xuanchuan .shiming{
+	font-size: 14px;
+}
+.product-imgs{
+	margin-bottom:20px;
+	}
+.product-imgs a{
+	margin-bottom:20px;
+	}
+.z-fanye{
+	text-align: center;
+	padding-top: 10px;
+}
+.z-fanye a{
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+}
+.z-fanye .fl{
+background: url(../img/zfanye_06.jpg) no-repeat;
+}
+.z-fanye .fr{
+background: url(../img/zfanye_03.png) no-repeat center;
+}
+.z-fanye .center{
+background: url(../img/zfanye_08.png) no-repeat;
+margin-top: 10px;
 }
