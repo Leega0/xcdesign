@@ -276,3 +276,53 @@ background: url(../img/zfanye_03.png) no-repeat center;
 background: url(../img/zfanye_08.png) no-repeat;
 margin-top: 10px;
 }
+/*********作品2页***********/
+.product1 p{
+	font-size: 14px;
+	color: #9fa0a0;
+	line-height: 24px;
+	padding: 15px 0;
+}
+/******aboutus*********/
+.nav{
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 45px;
+	background:#6a6a6a;
+}
+.nav a{
+	display: inline-block;
+	width: 350px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.nav a.cur{
+	color:#ff9d00;
+}
+.mysign{
+	margin-top: 40px;
+}
+.contain{
+	overflow: hidden;
+	padding: 0 30px;
+}
+.contain .fr{
+	width: 780px;
+}
+.contain dl{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.contain dt{
+	font-size: 30px;
+	color: #f18c27;
+	padding: 10px 0;
+}
+.contain p{
+	font-size: 14px;
+	color: #9fa0a0;
+	line-height: 20px;
+	padding: 10px 0
+}
